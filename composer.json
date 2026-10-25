@@ -1,0 +1,75 @@
+{
+    "name": "blackcube/bridge-form-model",
+    "description": "Bridged FormModel for Yii framework",
+    "keywords": [
+        "yii",
+        "form-model",
+        "active-record",
+        "bridge",
+        "hydrator",
+        "validation",
+        "elastic",
+        "hazeltree"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "readme": "README.md",
+    "homepage": "https://github.com/blackcubeio/bridge-form-model",
+    "support": {
+        "issues": "https://github.com/blackcubeio/bridge-form-model/issues",
+        "source": "https://github.com/blackcubeio/bridge-form-model"
+    },
+    "authors": [
+        {
+            "name": "Philippe Gaultier",
+            "email": "philippe@blackcube.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "ext-intl": "*",
+        "blackcube/active-record": "^1.0",
+        "blackcube/injector": "^1.0",
+        "yiisoft/active-record": "^1.1",
+        "yiisoft/db": "^2.1",
+        "yiisoft/form-model": "^1.1",
+        "yiisoft/hydrator": "^1.6"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "^3.3",
+        "codeception/module-db": "^3.2",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "vlucas/phpdotenv": "^5.7",
+        "yiisoft/cache-file": "^3.2",
+        "yiisoft/db-migration": "^2.2",
+        "yiisoft/db-mysql": "^2.0",
+        "yiisoft/di": "^1.4",
+        "yiisoft/event-dispatcher": "^1.1",
+        "yiisoft/factory": "^1.3",
+        "yiisoft/test-support": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blackcube\\BridgeFormModel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blackcube\\BridgeFormModel\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-devel": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
